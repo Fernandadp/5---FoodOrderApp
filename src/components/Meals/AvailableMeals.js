@@ -37,7 +37,7 @@ const AvailableMeals = () => {
 			id={meal.id}
 			key={meal.id}
 			name={meal.name}
-			description={NavigationPreloadManager.description}
+			description={meal.description}
 			price={meal.price}
 		/>
 	));
